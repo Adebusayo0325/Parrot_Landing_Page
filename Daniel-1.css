@@ -1,0 +1,376 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-height: 100%;
+    max-width: 100%;
+    max-zoom: 100%;
+}
+
+body{
+  /*  background: url("parrot-4651351_1920.jpg") no-repeat center center/cover;
+    background-size: contain;*/
+    width: 100%;
+   /* backface-visibility: 0.1;*/
+    height: 100vh;
+    width: 200vw;
+    
+}
+.firs{
+    position: relative;
+}
+
+.circle  .btn-x .pale{
+    position: relative;
+    top: 20%;
+    bottom: 30%;
+    left : 30%;
+}
+
+.circle{
+    position: relative;
+    bottom: 30%;
+}
+
+.v{
+    background: transparent;
+    border: none;
+     position: relative;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    top: 30%;
+    text-align: center;
+ left: 0%;
+ font-weight: bold;
+}
+.v:hover{
+    color: red;
+}
+.backrox{
+     display: none ; 
+     width: 100%;
+     /* position: relative; */
+     position: absolute;
+    height: 100vh;
+    opacity: 0.5 200;
+    stroke-opacity: black ;
+    stop-opacity: 20px;
+    flood-opacity: black;
+    object-fit: cover;
+  /*  color:linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), */
+                /* filter: brightness(3 */
+                
+}
+.backroy{
+        display: none ; 
+     width: 100%;
+     /* position: relative; */
+     position: absolute;
+    height: 100vh;
+    opacity: 0.5 200;
+    stroke-opacity: black ;
+    stop-opacity: 20px;
+    flood-opacity: black;
+    object-fit: cover;
+     filter: brightness(50%);
+}
+.y{
+     position: relative;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    top: 30%;
+    text-align: center;
+ left: 0%;
+ font-weight: bold;
+ background: transparent;
+    border: none;
+}
+.x{
+     position: relative;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    top: 30%;
+    text-align: center;
+ left: 0%;
+ font-weight: bold;
+ background: transparent;
+    border: none;
+}
+.w{
+     position: relative;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    top: 30%;
+    text-align: center;
+ left: 0%;
+ font-weight: bold;
+ background: transparent;
+    border: none;
+}
+body .backro{
+    width: 100%;
+    height: 100vh;
+    /* display: none; */
+    opacity: 0.5 200;
+    stroke-opacity: black ;
+    stop-opacity: 20px;
+    flood-opacity: black;
+    object-fit: cover;
+  /*  color:linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5)), */
+                filter: brightness(30%); 
+}
+
+body .circle{
+    border-radius: 50%;
+        width: 400px;
+    height: 400px;
+    background: url("parrot-4651351_1920.jpg") no-repeat top left/cover;
+    border: orange solid 2px;
+    
+            border-color: orange;
+    position: relative;
+    top: -80%;
+    left: 35%;
+}
+
+.btn-x{
+    position: relative;
+    top: 95%;
+    left: 60%;
+    background: transparent;
+}
+
+.pale{
+    position: relative;
+    top: -85%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+}
+header img{
+    height: 80px;
+    width: 70px;
+    border: 10px 10px white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5%;
+    left: 75%;
+    right: 40%;
+}
+
+
+header h2{
+    position:absolute ;
+    top: 5%;
+    left: 10%;
+    color: white;
+}
+
+
+.left-side{
+    position: fixed;
+    right: 0%;
+width: 10%;
+
+background-color: #282626;
+    display: flex;
+    flex-direction: row-reverse;
+    top: 0%;
+    padding: 1em;
+    font-size: 3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+direction: ltr;
+writing-mode: vertical-lr;
+text-orientation: sideways;
+
+    
+}
+
+.left-side h5{
+              transform: rotateZ(180deg)  ;
+              position: absolute;
+              bottom: 100%;
+              margin-top: 1.2em;
+
+ /*   transform-style: preserve-3d;*/
+}
+.left-side i {
+    position: relative;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    padding: 0.5em;
+    font-size: 1.3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+
+}
+
+.left-side h5{
+    position: relative;
+    right:0;
+    display: flex;
+    flex-direction: column;
+    top: 30%;
+    padding: 0.5em;
+    font-size: 1.3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+
+    
+}
+
+nav {
+    position: absolute;
+    top: 1.7%;
+    left: 30%;
+    padding: 2em;
+    right: 0;
+    display: flex;
+    
+    flex-direction: row;
+}
+nav a{
+    padding: 2em;
+    margin: 0 10px 0 10px;
+    font-size: 1.3em;
+    text-decoration: none;
+    text-decoration-color: white;
+        color: white;
+         
+        
+}
+
+.side-nav{
+    position: fixed;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    top: 0%;
+    padding: 1em;
+    font-size: 1.3rem;
+    color: white;
+    height: 100vh;
+    text-align: center;
+}
+
+/* .side-nav span{ */
+
+/* } */
+
+main{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 2em;
+    justify-content: left;
+    align-items: left;
+    color: white;
+    backface-visibility: 100%;
+}
+
+main h1{
+    position: absolute;
+    top: 33%;
+    left: 15%;
+}
+
+main h4{
+    position: absolute;
+    top: 35%;
+    left: 12%;
+    margin-top: 5px;
+    margin-bottom:10px;
+    padding: 2em;
+}
+
+main p{
+    position: absolute;
+    top: 37%;
+    left: 12%;
+    margin-top: 5px;
+    margin-bottom:10px;
+    padding: 2em;
+}
+
+.parrot button{
+        position: absolute;
+    top: 50%;
+    left: 15%;
+    margin-top: 5px;
+    margin-bottom:10px;
+    padding: 1em;
+    border-radius: 10px;
+    border-width: 2px;
+    font-size: 18px;
+    background-color: orange;
+    color: white;
+
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-left : 0;
+    margin-right: 40px;
+    position: relative;
+    bottom:40%;
+    padding: 2em;
+    color: white;
+    width: 70%;
+}
+
+.external-links{
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    margin-right: 0px;
+    margin: auto;
+    padding: 2em;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.toggle{
+    color: pink;
+    width: 33%;
+    display: flex;
+    flex-direction: row;
+}
+
+.toggle span{
+    width: 40%;
+    height: 1%;
+    background-color: lightblue;
+    position: relative;
+    top: 5%;
+}
+
+.left-bottom{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin: auto;
+    padding: 2em;
+    
+}
+
+.left-bottom p{
+    padding: 10px 500px 10px 10px;
+    margin-right: 20px;
+    width: 10%;
+}
